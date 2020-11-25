@@ -1,8 +1,8 @@
 ---
-title: SemEval
+title: NFLEval
 ---
 
-## What is SemEval?
+## What is NFLEval?
 
 __SemEval__ is a series of international natural language processing (NLP) research workshops whose mission is to advance the current state of the art in semantic analysis and to help create high-quality annotated datasets in a range of increasingly challenging problems in natural language semantics. 
 Each year's workshop features a collection of shared tasks in which computational semantic analysis systems designed by different teams are presented and compared.
