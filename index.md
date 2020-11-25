@@ -67,9 +67,9 @@ Source: https://github.com/SemEval/semeval.github.io
 The following are to be completed for finishing the project
 
 - [ ] &ensp; Link to Kaggle data repo 
-- [ ] How to do the API call directly to Kaggle 
-- [ ] Add more bokeh to interactive viewable html 
-- [x] this is a complete item
+- [ ] &ensp; How to do the API call directly to Kaggle 
+- [ ] &ensp; Add more bokeh to interactive viewable html 
+- [x] &ensp; this is a complete item
 
 <br>
 
