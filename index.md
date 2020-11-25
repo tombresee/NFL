@@ -11,6 +11,18 @@ SemEval is sponsored by the [SIGLEX](http://alt.qcri.org/siglex/) Special Intere
 For more information on SemEval and its history, please see
 <http://en.wikipedia.org/wiki/SemEval>.
 
+https://tombresee.github.io/NFL/alpha.html
+
+https://tombresee.github.io/NFL/beta.html
+
+https://tombresee.github.io/NFL/gamma.html
+
+https://tombresee.github.io/NFL/tau.html
+
+https://tombresee.github.io/NFL/pi.html
+
+
+
 ## [SemEval-2020](http://alt.qcri.org/semeval2020/)
 
 Tom:  There will be new [tasks](https://tombresee.github.io/NFL/tasks.html) ranging from prediction to old link https://semeval.github.io/SemEval2021/tasks.html
