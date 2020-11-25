@@ -8,7 +8,7 @@ __SemEval__ is a series of international natural language processing (NLP) resea
 Each year's workshop features a collection of shared tasks in which computational semantic analysis systems designed by different teams are presented and compared.
 
 SemEval is sponsored by the [SIGLEX](http://alt.qcri.org/siglex/) Special Interest Group on the Lexicon of the Association for Computational Linguistics.
-For more information on SemEval and its history, please see<http://en.wikipedia.org/wiki/SemEval>.
+For more information on SemEval and its history, please see <http://en.wikipedia.org/wiki/SemEval>.
 
 <https://tombresee.github.io/NFL/alpha.html>
 
@@ -66,7 +66,7 @@ Source: https://github.com/SemEval/semeval.github.io
 
 The following are to be completed for finishing the project
 
-- [ ] Link to Kaggle data repo 
+- [ ] &ensp; Link to Kaggle data repo 
 - [ ] How to do the API call directly to Kaggle 
 - [ ] Add more bokeh to interactive viewable html 
 - [x] this is a complete item
