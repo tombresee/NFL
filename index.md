@@ -8,18 +8,17 @@ __SemEval__ is a series of international natural language processing (NLP) resea
 Each year's workshop features a collection of shared tasks in which computational semantic analysis systems designed by different teams are presented and compared.
 
 SemEval is sponsored by the [SIGLEX](http://alt.qcri.org/siglex/) Special Interest Group on the Lexicon of the Association for Computational Linguistics.
-For more information on SemEval and its history, please see
-<http://en.wikipedia.org/wiki/SemEval>.
+For more information on SemEval and its history, please see<http://en.wikipedia.org/wiki/SemEval>.
 
-https://tombresee.github.io/NFL/alpha.html
+<https://tombresee.github.io/NFL/alpha.html>
 
-https://tombresee.github.io/NFL/beta.html
+<https://tombresee.github.io/NFL/beta.html>
 
-https://tombresee.github.io/NFL/gamma.html
+<https://tombresee.github.io/NFL/gamma.html>
 
-https://tombresee.github.io/NFL/tau.html
+<https://tombresee.github.io/NFL/tau.html>
 
-https://tombresee.github.io/NFL/pi.html
+<https://tombresee.github.io/NFL/pi.html>
 
 
 
@@ -53,26 +52,28 @@ Source: https://github.com/SemEval/semeval.github.io
 
 - [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
 - [x] list syntax required (any unordered or ordered list supported)
-- [x] this is a complete item
+
 - [ ] this is an incomplete item
 
-First Header | Second Header
------------- | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
 
 
-Tasks lists are my favorite:
-
-- [x] This is a complete item
-- [ ] This is an incomplete item
-- [ ] This is an incomplete item
 
 
-When you include a task list in the first comment of an Issue, you will see a helpful progress bar in your list of issues. It works in Pull Requests, too!
+<br>
+
 
 ## Items Left to Complete:
 
 The following are to be completed for finishing the project
 
+- [ ] Link to Kaggle data repo 
+- [ ] How to do the API call directly to Kaggle 
+- [ ] Add more bokeh to interactive viewable html 
+- [x] this is a complete item
 
+<br>
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
