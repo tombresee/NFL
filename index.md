@@ -13,6 +13,8 @@ For more information on SemEval and its history, please see
 
 ## [SemEval-2020](http://alt.qcri.org/semeval2020/)
 
+Tom:  There will be new [tasks](https://tombresee.github.io/NFL/tasks.html) ranging from prediction to old link https://semeval.github.io/SemEval2021/tasks.html
+
 The 14th edition of SemEval features 12 tasks on topics ranging from lexical semantic change to offensive language in social media.
 
 It will take place December 12–13, 2020 <s>in Barcelona, Spain</s> online, colocated with [COLING 2020](https://coling2020.org/).
@@ -21,7 +23,9 @@ It will take place December 12–13, 2020 <s>in Barcelona, Spain</s> online, col
 
 The 15th edition of SemEval will feature [tasks](https://semeval.github.io/SemEval2021/tasks.html) ranging from prediction of lexical complexity to learning with disagreements, and including several cross-lingual and multi-modal tasks.
 
-The evaluation period will take place in January 2021. See the [SemEval-2021 homepage](https://semeval.github.io/SemEval2021/) for details.
+
+
+valuation period will take place in January 2021. See the [SemEval-2021 homepage](https://semeval.github.io/SemEval2021/) for details.
 
 The workshop will take place August 5–6, 2021 in Bangkok, Thailand, colocated with [ACL-IJCNLP 2021](https://2021.aclweb.org/).
 
