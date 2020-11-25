@@ -25,7 +25,10 @@ The evaluation period will take place in January 2021. See the [SemEval-2021 hom
 
 The workshop will take place August 5–6, 2021 in Bangkok, Thailand, colocated with [ACL-IJCNLP 2021](https://2021.aclweb.org/).
 
-## Anti-Harassment policy
+## References
+
 
 SemEval highly values the open exchange of ideas, freedom of thought and expression, and respectful scientific debate. We support and uphold the [NAACL Anti-Harassment policy](http://naacl.org/policies/anti-harassment.html). Participants are encouraged to send any concerns or questions to the [NAACL Board members](http://naacl.org/officers/), [Priscilla Rasmussen](mailto:acl@aclweb.org) and/or the workshop organizers.
  
+Source: https://github.com/SemEval/semeval.github.io
+
