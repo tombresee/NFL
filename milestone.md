@@ -18,12 +18,14 @@ Evaluation of complex data plays.
 
 
 ### Core Raw Data Sources:
- - [NFL Kaggle 2021](https://www.kaggle.com/c/nfl-big-data-bowl-2021/data)
-   - 20 separate files, including one with 18M data samples
-   - Total Size:  2GB
+ - [NFL Kaggle 2021 Repo](https://www.kaggle.com/c/nfl-big-data-bowl-2021/data)
+   - 20 separate files (including one with 18M samples), and 363 columns
+   - Total Set Size:  2.17 GB
    - Accessible via kaggle API python node 
 
-   [Running a Competition](https://github.com/codalab/codalab-competitions/wiki/User_Running-a-Competition)
+ - [NFL Kaggle 2020 Repo](https://www.kaggle.com/c/nfl-big-data-bowl-2020/data)
+   - Total Set Size:  276.47 MB
+   - Accessible via kaggle API python node 
 
 
 |
@@ -37,6 +39,26 @@ Evaluation of complex data plays.
 - New information resulted from combining them:
    - abc 
 
+
+|
+
+
+### Enhanced Visualization Expectations:
+ - Initial Processing:
+
+
+|
+
+
+### Expected Visualization Approaches:
+ - Interactive Vizualization: 
+   - Bokeh
+   - Altair
+   - Holoviews
+ - Static Visualization:
+   - Seaborn
+   - Matplotlib
+   - ggplot 
 
 |
 
