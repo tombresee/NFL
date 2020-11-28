@@ -17,15 +17,15 @@ Evaluation of complex data plays.
 |
 
 
-### Core Data Sources:
- - https://www.kaggle.com/c/nfl-big-data-bowl-2021/data
-   - total size: 
- - [Isabelle Guyon's Codalab tutorial](https://www.youtube.com/watch?v=mU1yEEMrMvY)
- - [CodaLab Quickstart Guide](https://github.com/codalab/codalab-worksheets/wiki/Quickstart)
- - [Running a Competition](https://github.com/codalab/codalab-competitions/wiki/User_Running-a-Competition)
- - [Competition Roadmap](https://github.com/codalab/codalab-competitions/wiki/User_Competition-Roadmap)
+### Core Raw Data Sources:
+ - [NFL Kaggle 2021](https://www.kaggle.com/c/nfl-big-data-bowl-2021/data)
+   - 20 separate files, including one with 18M data samples
+   - Total Size:  2GB
+   - Accessible via kaggle API python node 
 
+   [Running a Competition](https://github.com/codalab/codalab-competitions/wiki/User_Running-a-Competition)
 
+|
 
 ### Some resources that should help you in this process:
  - We have put together a [sample CodaLab competition](https://github.com/bethard/semeval-codalab) that you can use as a starting point for your task’s competition: 
@@ -34,6 +34,8 @@ Evaluation of complex data plays.
  - Post your questions and issues on CodaLab [here](https://github.com/codalab/codalab-competitions/issues)
    - Search first to see if a similar question has already been asked and answered.
    - You can also post your questions to the semeval-task-organizers@googlegroups.com mailing group where other task organizers and semeval organizers might be of help.
+
+|
 
 ### Important Notes:
  - Experiment with the [testing version of Codalab](https://competitions-test.codalab.org/) before uploading an official competition.
@@ -94,7 +96,7 @@ Participants must click the Submit to Leaderboard button underneath one of their
 
 
 #### CONTACT
-General questions should be directed to <tbresee@umich.edu>.
+General questions should be directed to <tbresee@umich.edu>
 
 
 
