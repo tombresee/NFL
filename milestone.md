@@ -29,6 +29,9 @@ Evaluation of complex data plays.
 
  - [NFL Next Gen Stats](https://nextgenstats.nfl.com/)
 
+ - [NFL Play by Play Data](https://www.dolthub.com/repositories/Liquidata/nfl-play-by-play)
+   - This data sourced from original nflfastR package scrape of this: https://github.com/guga31bb/nflfastR-data
+
  - [Shield](https://api.nfl.com/docs/getting-started/index.html)
    - Shield represents the client-facing API that will serve the needs of internal projects, external contributors, third-parties and fans alike. It is the primary way to read and write content to the NFL. It will allow users to find content, submit content for use in client applications and websites.
   - [API Endpoints](https://api.nfl.com/docs/global/endpoints/index.html) 
