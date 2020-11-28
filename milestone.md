@@ -27,8 +27,16 @@ Evaluation of complex data plays.
    - Total Set Size:  276.47 MB
    - Accessible via kaggle API python node 
 
+ - [NFL Next Gen Stats](https://nextgenstats.nfl.com/)
+
+
+ - 
+
+
+
 
 |
+
 
 
 ### Expected Data Manipulation:
@@ -62,6 +70,12 @@ Evaluation of complex data plays.
 
 |
 
+### Core Technical Tools:
+ - Jupyter Notebook
+ - Apache Spark tie-in
+ - 
+
+|
 
 
 
