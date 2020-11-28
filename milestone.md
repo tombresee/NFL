@@ -10,9 +10,7 @@ title: Milestone
 
 ### Project: NFL-Eval
 
-Creating an extended EDA template for NFL football stats.  This will also entail API connectivity for multiple data sources.  Endgoal is.  
-
-Evaluation of complex data plays. 
+Creating an extended EDA template for NFL football stats.  This will also entail API connectivity for multiple data sources.  Endgoal is.  Evaluation of complex data plays. 
 
 
 |
