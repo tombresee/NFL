@@ -52,9 +52,7 @@ Note that CodaLab competitions is not the same as CodaLab worksheets. There is n
 Consider setting up at least the following three phases for your competition:
 1. **Practice phase:**
    - Runs from now until roughly 10 Jan 2021 (official dates TBA)
-   - Uses the official evaluation script, but on the trial data
-   - Set maximum submissions to something high like 999
-   - Make the leaderboard public
+
    - Allows participants to check their formatting
 2. **Evaluation phase:**
    - Runs from roughly 10 Jan until 31 Jan 2021 or some subset, if your competition is shorter (official dates TBA)
@@ -67,10 +65,7 @@ Consider setting up at least the following three phases for your competition:
    - Runs from roughly 31 Jan (or earlier, if your evaluation length is shorter than the maximum allowed time) (official dates TBA)
    - Uses the official evaluation script and the official test data
    - Enable “Auto migration” of submissions from Evaluation phase to this phase
-   - Set maximum submissions to something high like 999
-   - Make the leaderboard public
-   - Allows participants to score “contrastive runs” that can be included as part of the analysis in system description papers. Also allows scoring of future systems interested in the task beyond SemEval 2021
-   - At most one submission for each participant can be displayed on the leaderboard.
+
 
 Participants must click the Submit to Leaderboard button underneath one of their submissions to display those results on the leaderboard. (Task organizers may override the participants using the `SHOW` setting on the `Submissions` page.)
 - If you choose to allow more than 1 submission in your phases, organizers can see all submissions in the `Admin Features` -> `Submissions` tab.
@@ -101,7 +96,9 @@ Participants must click the Submit to Leaderboard button underneath one of their
 General questions should be directed to <tbresee@umich.edu>.
 
 
+
 **Quick links:** [http://codalab.org](http://codalab.org), [SemEval-2021 tasks](https://semeval.github.io/SemEval2021/tasks), [SemEval-2021 home](https://semeval.github.io/SemEval2021)
+
 
 
 
