@@ -14,7 +14,7 @@ Creating an extended EDA template for NFL football stats.  This will also entail
 Evaluation of complex data plays. 
 
 
-
+|
 
 
 ### Core Data Sources:
@@ -98,12 +98,5 @@ General questions should be directed to <tbresee@umich.edu>.
 
 
 
-**Quick links:** [http://codalab.org](http://codalab.org), [SemEval-2021 tasks](https://semeval.github.io/SemEval2021/tasks), [SemEval-2021 home](https://semeval.github.io/SemEval2021)
-
-
-
-
-This page has two sections:
-1. Setting up CodaLab competition websites (for task organizers)
-2. Participating in CodaLab competitions (for task participants)
+**Source:** [Milestone](https://tombresee.github.io/NFL/milestone)
 
