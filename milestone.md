@@ -104,49 +104,6 @@ Evaluation of complex data plays.
  - Make sure your evaluation script throws errors (and exits with an error status) for all formatting issues you are able to detect in system submissions. This will ensure that ill-formatted submissions do not count against a participant’s submission limit.
    - A very common error is for participants to include an extra subdirectory in their submission. Please make sure your evaluation script detects and handles this error.
  
-### Phases of the competition:
-
-Consider setting up at least the following three phases for your competition:
-1. **Practice phase:**
-   - Runs from now until roughly 10 Jan 2021 (official dates TBA)
-
-   - Allows participants to check their formatting
-2. **Evaluation phase:**
-   - Runs from roughly 10 Jan until 31 Jan 2021 or some subset, if your competition is shorter (official dates TBA)
-   - Uses the official evaluation script and the official test data
-   - Set maximum submissions to a number less than or equal to 10. If the number is greater than 1, a suggested option is to tell the participants that only their final valid submission on CodaLab will be taken as the official submission to the competition. The participants can still describe contrastive runs in their system paper. If you choose to accept more than one official submission per team, then you will have to look for the other submissions in the 'submissions' tab (the leaderboard only shows the latest valid submission).
-   - Hide the leaderboard (`leaderboard_management_mode: hide_results`)
-   - Determines the official leaderboard rankings for SemEval
-   - At the end of the evaluation period, make a copy of the leaderboard and save it as backup in case the leaderboard gets updated (especially needed if you have not set up a post-evaluation phase)
-3. **Post-Evaluation phase:**
-   - Runs from roughly 31 Jan (or earlier, if your evaluation length is shorter than the maximum allowed time) (official dates TBA)
-   - Uses the official evaluation script and the official test data
-   - Enable “Auto migration” of submissions from Evaluation phase to this phase
-
-
-Participants must click the Submit to Leaderboard button underneath one of their submissions to display those results on the leaderboard. (Task organizers may override the participants using the `SHOW` setting on the `Submissions` page.)
-- If you choose to allow more than 1 submission in your phases, organizers can see all submissions in the `Admin Features` -> `Submissions` tab.
-- If you choose to allow more than 1 submission, it is especially important to consider hiding the leaderboard during the Test phase to prevent participants from making a large number of submissions, viewing their results, and then choosing the best to place on the leaderboard (i.e., tuning to the test data).
-
-## Participating in a CodaLab competition:
-1. Create a [CodaLab](https://competitions.codalab.org/) account. Sign in.
-2. Edit your profile appropriately. Make sure to add a team name, and enter names of team members. (Go to `Settings`, and look under `Competition settings`.)
-3. Proceed to task webpage on CodaLab. Read information on all the pages.
-4. Download data: training, development, and test (when released)
-5. Run your system on the data and generate a submission file, which must follow the official submission format outlined for your task. CodaLab does not place any restrictions on the name of the zip file.
-6. Make submissions on the development set (Phase 1).
-   - Wait a few moments for the submission to execute.
-   - Click on the `Refresh Status` button to check status.
-   - Check to make sure submission is successful.
-     - System will show status as `Finished`.
-     - Click on `Download evaluation output from scoring step` to examine the result. If you choose to, you can upload the result on the leaderboard.
-     - If unsuccessful, check error log, fix format issues (if any), resubmit updated zip.
-7. Once the evaluation period begins, you can make submissions for the test set. The procedure is similar to that on the dev set. These differences apply:
-   - The leader board will be disabled until the end of the evaluation period.
-   - You cannot see the results of your submission. They will be posted on a later date after the evaluation period ends.
-   - You can still see if your submission was successful or resulted in some error.
-   - In case of error, you can view the error log.
-
 
 
 #### CONTACT
