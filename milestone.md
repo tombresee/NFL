@@ -19,12 +19,17 @@ title: Milestone
 
 Note that CodaLab competitions is not the same as CodaLab worksheets. There is no requirement of participants to upload any code to CodaLab. In the vast majority of competitions, participants simply upload their output files, as in all past SemEvals.
 
-### Tutorials:
- - This tutorial by Tristan Miller is likely to be extremely useful: [Slides](https://www.hse.ru/data/2017/05/31/1171931089/CodaLabCompetitions.pdf), [Video](https://www.youtube.com/watch?v=Ptx93cSBdNY)
+
+
+### Core Data Sources:
+ - https://www.kaggle.com/c/nfl-big-data-bowl-2021/data
+   - total size: 
  - [Isabelle Guyon's Codalab tutorial](https://www.youtube.com/watch?v=mU1yEEMrMvY)
  - [CodaLab Quickstart Guide](https://github.com/codalab/codalab-worksheets/wiki/Quickstart)
  - [Running a Competition](https://github.com/codalab/codalab-competitions/wiki/User_Running-a-Competition)
  - [Competition Roadmap](https://github.com/codalab/codalab-competitions/wiki/User_Competition-Roadmap)
+
+
 
 ### Some resources that should help you in this process:
  - We have put together a [sample CodaLab competition](https://github.com/bethard/semeval-codalab) that you can use as a starting point for your task’s competition: 
