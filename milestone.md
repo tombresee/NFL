@@ -7,17 +7,9 @@ title: Milestone
 
 |
 
-### Benefits of CodaLab:
- - No need to manually download and manage system submissions.
- - Evaluation scripts run (and results collected) fully automatically.
- - Participants can easily test their output formats (e.g., on the trial data) without any help from organizers.
- - CodaLab supports setting specific task start and end dates for individual tasks.
- - CodaLab supports multi-phase evaluation.
- - CodaLab allows upload, download, and versioning of your datasets and scoring programs.
- - CodaLab leaderboards can include multiple different scores and can be anonymous if desired.
- - The CodaLab website can remain active even after the competition, allowing others to upload their submissions and be automatically evaluated.
+### Project:
 
-Note that CodaLab competitions is not the same as CodaLab worksheets. There is no requirement of participants to upload any code to CodaLab. In the vast majority of competitions, participants simply upload their output files, as in all past SemEvals.
+Creating an extended EDA template for NFL football stats.  This will also entail API connectivity for multiple data sources.  Endgoal is.  
 
 
 
