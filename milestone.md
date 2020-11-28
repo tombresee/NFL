@@ -5,7 +5,7 @@ title: Milestone
 
 ## Milestone - University of Michigan
 
-
+|
 
 ### Benefits of CodaLab:
  - No need to manually download and manage system submissions.
