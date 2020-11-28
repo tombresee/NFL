@@ -51,14 +51,16 @@ Evaluation of complex data plays.
 |
 
 
+
 ### Enhanced Visualization Expectations:
  - Initial Processing:
+
 
 
 |
 
 
-### Expected Visualization Approaches:
+### Expected Visualization Tool Approaches:
  - Interactive Vizualization: 
    - Bokeh
    - Altair
