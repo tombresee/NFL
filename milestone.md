@@ -6,6 +6,7 @@ title: Milestone
 ## Milestone - University of Michigan
 
 |
+|
 
 ### Project: NFL-Eval
 
@@ -14,6 +15,7 @@ Creating an extended EDA template for NFL football stats.  This will also entail
 Evaluation of complex data plays. 
 
 
+|
 |
 
 
@@ -42,6 +44,8 @@ Evaluation of complex data plays.
 
 
 |
+|
+
 
 
 
@@ -55,6 +59,8 @@ Evaluation of complex data plays.
 
 
 |
+|
+
 
 
 
@@ -64,6 +70,8 @@ Evaluation of complex data plays.
 
 
 |
+|
+
 
 
 
@@ -79,6 +87,9 @@ Evaluation of complex data plays.
 
 
 |
+|
+
+
 
 
 ### Core Technical Tools:
@@ -88,7 +99,7 @@ Evaluation of complex data plays.
  
 
 
-
+|
 |
 
 
@@ -101,7 +112,7 @@ Evaluation of complex data plays.
    - Search first to see if a similar question has already been asked and answered.
    - You can also post your questions to the semeval-task-organizers@googlegroups.com mailing group where other task organizers and semeval organizers might be of help.
 
-
+|
 |
 
 
@@ -116,7 +127,7 @@ Evaluation of complex data plays.
    - [Getting Started](https://devcenter.heroku.com/articles/getting-started-with-python#define-a-procfile)
 
 
-
+|
 |
 
 
