@@ -98,7 +98,7 @@ Participants must click the Submit to Leaderboard button underneath one of their
 
 
 #### CONTACT
-Contact information for organizers of individual tasks will be available soon. General questions about SemEval organization should be directed to <semeval-organizers@googlegroups.com>.
+General questions should be directed to <tbresee@umich.edu>.
 
 
 **Quick links:** [http://codalab.org](http://codalab.org), [SemEval-2021 tasks](https://semeval.github.io/SemEval2021/tasks), [SemEval-2021 home](https://semeval.github.io/SemEval2021)
