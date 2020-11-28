@@ -7,7 +7,7 @@ title: Milestone
 
 |
 
-### Project:
+### Project: NFL-Eval
 
 Creating an extended EDA template for NFL football stats.  This will also entail API connectivity for multiple data sources.  Endgoal is.  
 
@@ -25,7 +25,23 @@ Evaluation of complex data plays.
 
    [Running a Competition](https://github.com/codalab/codalab-competitions/wiki/User_Running-a-Competition)
 
+
 |
+
+
+### Expected Data Manipulation:
+ - Initial Processing:
+   - Expected 
+- Merging:
+   - Expected is 
+- New information resulted from combining them:
+   - abc 
+
+
+|
+
+
+
 
 ### Some resources that should help you in this process:
  - We have put together a [sample CodaLab competition](https://github.com/bethard/semeval-codalab) that you can use as a starting point for your task’s competition: 
