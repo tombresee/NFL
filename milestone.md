@@ -84,7 +84,9 @@ Evaluation of complex data plays.
 ### Core Technical Tools:
  - Jupyter Notebook
  - Apache Spark tie-in
- - 
+ - Heroku [prototype](https://immense-eyrie-75566.herokuapp.com/)
+ 
+
 
 
 |
@@ -108,8 +110,15 @@ Evaluation of complex data plays.
  - Dolt
    - https://www.dolthub.com/docs/tutorials/installation/#doltpy
    - https://github.com/dolthub/dolthub-etl-jobs/tree/master/adhoc/nfl-play-by-play 
+   - https://github.com/dolthub/dolthub-etl-jobs/blob/master/adhoc/nfl-play-by-play/import-play-by-play.py
+ - Heroku
+   - https://devcenter.heroku.com/articles/getting-started-with-python#set-up
+   - [Getting Started](https://devcenter.heroku.com/articles/getting-started-with-python#define-a-procfile)
+
+
 
 |
+
 
 #### CONTACT
 General questions should be directed to <tbresee@umich.edu>

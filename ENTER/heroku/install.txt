@@ -1,0 +1,109 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+
+PS C:\Users\tbresee> heroku login
+heroku: Press any key to open up the browser to login or q to exit:
+Opening browser to https://cli-auth.heroku.com/auth/cli/browser/d566824b-4ddf-4476-9981-2b2fecc68620?requestor=SFMyNTY.g3QAAAACZAAEZGF0YW0AAAANMjA4LjU0Ljk5LjIwOWQABnNpZ25lZG4GAO9d3xB2AQ.OBWG2PRd1i45FXQNT8DsbTi_ZDMRFtm9Fmpx-EDkYS8
+heroku: Waiting for login... -
+^CTerminate batch job (Y/N)?
+^CThe syntax of the command is incorrect.
+PS C:\Users\tbresee> d:
+PS D:\> cd .\GITHUB_Repos\
+PS D:\GITHUB_Repos> cd .\python-getting-started\
+PS D:\GITHUB_Repos\python-getting-started> dir
+
+
+    Directory: D:\GITHUB_Repos\python-getting-started
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        11/28/2020   3:56 PM                .github
+d-----        11/28/2020   3:56 PM                gettingstarted
+d-----        11/28/2020   3:56 PM                hello
+-a----        11/28/2020   3:56 PM              9 .env
+-a----        11/28/2020   3:56 PM             61 .gitignore
+-a----        11/28/2020   3:56 PM            631 app.json
+-a----        11/28/2020   3:56 PM            267 manage.py
+-a----        11/28/2020   3:56 PM             48 Procfile
+-a----        11/28/2020   3:56 PM             46 Procfile.windows
+-a----        11/28/2020   3:56 PM           1353 README.md
+-a----        11/28/2020   3:56 PM             31 requirements.txt
+-a----        11/28/2020   3:56 PM             14 runtime.txt
+
+
+PS D:\GITHUB_Repos\python-getting-started> heroku create
+Creating app... !
+ !    Invalid credentials provided.
+heroku: Press any key to open up the browser to login or q to exit:
+Opening browser to https://cli-auth.heroku.com/auth/cli/browser/e017e0b9-3500-4e4e-bbd5-27a4e7ddc020?requestor=SFMyNTY.g3QAAAACZAAEZGF0YW0AAAANMjA4LjU0Ljk5LjIwOWQABnNpZ25lZG4GABzQ4BB2AQ.bi63mhvcoRCcd_FDWa3iYne6qFuXH4QQfAwsytZjisg
+heroku: Waiting for login... \
+^CTerminate batch job (Y/N)?
+^CThe syntax of the command is incorrect.
+PS D:\GITHUB_Repos\python-getting-started> heroku login -i
+heroku: Enter your login credentials
+Email: tbresee@umich.edu
+Password: ***************
+Logged in as tbresee@umich.edu
+PS D:\GITHUB_Repos\python-getting-started> heroku create
+Creating app... done, ⬢ immense-eyrie-75566
+https://immense-eyrie-75566.herokuapp.com/ | https://git.heroku.com/immense-eyrie-75566.git
+PS D:\GITHUB_Repos\python-getting-started> git push heroku main
+Enumerating objects: 469, done.
+Counting objects: 100% (469/469), done.
+Delta compression using up to 24 threads
+Compressing objects: 100% (208/208), done.
+Writing objects: 100% (469/469), 80.39 KiB | 26.79 MiB/s, done.
+Total 469 (delta 232), reused 469 (delta 232), pack-reused 0
+remote: Compressing source files... done.
+remote: Building source:
+remote:
+remote: -----> Python app detected
+remote:  !     Python has released a security update! Please consider upgrading to python-3.7.9
+remote:        Learn More: https://devcenter.heroku.com/articles/python-runtimes
+remote: -----> Installing python-3.7.8
+remote: -----> Installing pip 20.1.1, setuptools 47.1.1 and wheel 0.34.2
+remote: -----> Installing SQLite3
+remote: -----> Installing requirements with pip
+remote:        Collecting django
+remote:          Downloading Django-3.1.3-py3-none-any.whl (7.8 MB)
+remote:        Collecting gunicorn
+remote:          Downloading gunicorn-20.0.4-py2.py3-none-any.whl (77 kB)
+remote:        Collecting django-heroku
+remote:          Downloading django_heroku-0.3.1-py2.py3-none-any.whl (6.2 kB)
+remote:        Collecting sqlparse>=0.2.2
+remote:          Downloading sqlparse-0.4.1-py3-none-any.whl (42 kB)
+remote:        Collecting asgiref<4,>=3.2.10
+remote:          Downloading asgiref-3.3.1-py3-none-any.whl (19 kB)
+remote:        Collecting pytz
+remote:          Downloading pytz-2020.4-py2.py3-none-any.whl (509 kB)
+remote:        Collecting whitenoise
+remote:          Downloading whitenoise-5.2.0-py2.py3-none-any.whl (19 kB)
+remote:        Collecting dj-database-url>=0.5.0
+remote:          Downloading dj_database_url-0.5.0-py2.py3-none-any.whl (5.5 kB)
+remote:        Collecting psycopg2
+remote:          Downloading psycopg2-2.8.6.tar.gz (383 kB)
+remote:        Building wheels for collected packages: psycopg2
+remote:          Building wheel for psycopg2 (setup.py): started
+remote:          Building wheel for psycopg2 (setup.py): finished with status 'done'
+remote:          Created wheel for psycopg2: filename=psycopg2-2.8.6-cp37-cp37m-linux_x86_64.whl size=455086 sha256=97e37b95e76d56e411d05a0ce85a5865d2abb1addcc04c7c6fb4d98b50375384
+remote:          Stored in directory: /tmp/pip-ephem-wheel-cache-k0vkiuyt/wheels/25/78/75/9c0323f7e1fb42143cbd2439302beb7850a1034abb961cb281
+remote:        Successfully built psycopg2
+remote:        Installing collected packages: sqlparse, asgiref, pytz, django, gunicorn, whitenoise, dj-database-url, psycopg2, django-heroku
+remote:        Successfully installed asgiref-3.3.1 dj-database-url-0.5.0 django-3.1.3 django-heroku-0.3.1 gunicorn-20.0.4 psycopg2-2.8.6 pytz-2020.4 sqlparse-0.4.1 whitenoise-5.2.0
+remote: -----> $ python manage.py collectstatic --noinput
+remote:        133 static files copied to '/tmp/build_f4629899/staticfiles', 419 post-processed.
+remote:
+remote: -----> Discovering process types
+remote:        Procfile declares types -> web
+remote:
+remote: -----> Compressing...
+remote:        Done: 56.5M
+remote: -----> Launching...
+remote:        Released v5
+remote:        https://immense-eyrie-75566.herokuapp.com/ deployed to Heroku
+remote:
+remote: Verifying deploy... done.
+To https://git.heroku.com/immense-eyrie-75566.git

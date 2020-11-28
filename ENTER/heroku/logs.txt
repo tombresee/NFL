@@ -1,0 +1,46 @@
+PS D:\GITHUB_Repos\python-getting-started> heroku logs --tail
+2020-11-28T22:03:30.450037+00:00 app[api]: Initial release by user tbresee@umich.edu
+2020-11-28T22:03:30.450037+00:00 app[api]: Release v1 created by user tbresee@umich.edu
+2020-11-28T22:03:30.580395+00:00 app[api]: Release v2 created by user tbresee@umich.edu
+2020-11-28T22:03:30.580395+00:00 app[api]: Enable Logplex by user tbresee@umich.edu
+2020-11-28T22:03:54.000000+00:00 app[api]: Build started by user tbresee@umich.edu
+2020-11-28T22:04:36.803246+00:00 app[api]: Attach DATABASE (@ref:postgresql-regular-49884) by user tbresee@umich.edu
+2020-11-28T22:04:36.803246+00:00 app[api]: Running release v3 commands by user tbresee@umich.edu
+2020-11-28T22:04:36.816436+00:00 app[api]: @ref:postgresql-regular-49884 completed provisioning, setting DATABASE_URL. by user tbresee@umich.edu
+2020-11-28T22:04:36.816436+00:00 app[api]: Release v4 created by user tbresee@umich.edu
+2020-11-28T22:04:37.098726+00:00 app[api]: Deploy 3109f8be by user tbresee@umich.edu
+2020-11-28T22:04:37.098726+00:00 app[api]: Release v5 created by user tbresee@umich.edu
+2020-11-28T22:04:37.139523+00:00 app[api]: Scaled to web@1:Free by user tbresee@umich.edu
+2020-11-28T22:04:41.331592+00:00 heroku[web.1]: Starting process with command `gunicorn gettingstarted.wsgi --log-file -`
+2020-11-28T22:04:43.564723+00:00 app[web.1]: [2020-11-28 22:04:43 +0000] [4] [INFO] Starting gunicorn 20.0.4
+2020-11-28T22:04:43.565375+00:00 app[web.1]: [2020-11-28 22:04:43 +0000] [4] [INFO] Listening at: http://0.0.0.0:47374 (4)
+2020-11-28T22:04:43.565470+00:00 app[web.1]: [2020-11-28 22:04:43 +0000] [4] [INFO] Using worker: sync
+2020-11-28T22:04:43.570162+00:00 app[web.1]: [2020-11-28 22:04:43 +0000] [10] [INFO] Booting worker with pid: 10
+2020-11-28T22:04:43.614305+00:00 app[web.1]: [2020-11-28 22:04:43 +0000] [11] [INFO] Booting worker with pid: 11
+2020-11-28T22:04:43.806822+00:00 heroku[web.1]: State changed from starting to up
+2020-11-28T22:04:53.000000+00:00 app[api]: Build succeeded
+2020-11-28T22:05:14.409162+00:00 app[web.1]: 10.138.162.166 - - [28/Nov/2020:22:05:14 +0000] "GET / HTTP/1.1" 200 7423 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36"
+2020-11-28T22:05:14.412013+00:00 heroku[router]: at=info method=GET path="/" host=immense-eyrie-75566.herokuapp.com request_id=693d55fc-d6f3-4b67-8eda-b2582df6e747 fwd="172.58.69.32" dyno=web.1 connect=1ms service=43ms status=200 bytes=7671 protocol=https
+2020-11-28T22:05:14.712254+00:00 app[web.1]: 10.138.162.166 - - [28/Nov/2020:22:05:14 +0000] "GET /static/lang-logo.png HTTP/1.1" 200 0 "https://immense-eyrie-75566.herokuapp.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36"
+2020-11-28T22:05:14.714815+00:00 heroku[router]: at=info method=GET path="/static/lang-logo.png" host=immense-eyrie-75566.herokuapp.com request_id=e6513358-5ef9-4d83-94fa-e5889c783047 fwd="172.58.69.32" dyno=web.1 connect=1ms service=6ms status=200 bytes=2498 protocol=https
+2020-11-28T22:05:15.022754+00:00 app[web.1]: Not Found: /favicon.ico
+2020-11-28T22:05:15.023650+00:00 app[web.1]: 10.138.162.166 - - [28/Nov/2020:22:05:15 +0000] "GET /favicon.ico HTTP/1.1" 404 2228 "https://immense-eyrie-75566.herokuapp.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36"
+2020-11-28T22:05:15.026457+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=immense-eyrie-75566.herokuapp.com request_id=c755a861-85ed-42a7-97b1-fdb8bbc6021f fwd="172.58.69.32" dyno=web.1 connect=1ms service=31ms status=404 bytes=2468 protocol=https
+2020-11-28T22:07:17.740556+00:00 app[web.1]: 10.63.193.41 - - [28/Nov/2020:22:07:17 +0000] "GET / HTTP/1.1" 200 7423 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36"
+2020-11-28T22:07:17.743856+00:00 heroku[router]: at=info method=GET path="/" host=immense-eyrie-75566.herokuapp.com request_id=b845fafb-e67e-4989-a05e-c2d3d683cd67 fwd="172.58.69.32" dyno=web.1 connect=0ms service=5ms status=200 bytes=7671 protocol=https
+2020-11-28T22:07:17.878673+00:00 app[web.1]: 10.63.193.41 - - [28/Nov/2020:22:07:17 +0000] "GET /static/lang-logo.png HTTP/1.1" 304 0 "https://immense-eyrie-75566.herokuapp.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36"
+2020-11-28T22:07:17.881822+00:00 heroku[router]: at=info method=GET path="/static/lang-logo.png" host=immense-eyrie-75566.herokuapp.com request_id=6c26c312-67f0-41a5-bb78-e253c0649840 fwd="172.58.69.32" dyno=web.1 connect=0ms service=3ms status=304 bytes=166 protocol=https
+
+
+
+status:
+
+PS D:\GITHUB_Repos\python-getting-started> heroku ps
+Free dyno hours quota remaining this month: 550h 0m (100%)
+Free dyno usage for this app: 0h 0m (0%)
+For more information on dyno sleeping and how to upgrade, see:
+https://devcenter.heroku.com/articles/dyno-sleeping
+
+=== web (Free): gunicorn gettingstarted.wsgi --log-file - (1)
+web.1: up 2020/11/28 16:04:43 -0600 (~ 5m ago)
+
