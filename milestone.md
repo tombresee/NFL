@@ -60,6 +60,7 @@ Evaluation of complex data plays.
 |
 
 
+
 ### Expected Visualization Tool Approaches:
  - Interactive Vizualization: 
    - Bokeh
@@ -70,12 +71,15 @@ Evaluation of complex data plays.
    - Matplotlib
    - ggplot 
 
+
 |
+
 
 ### Core Technical Tools:
  - Jupyter Notebook
  - Apache Spark tie-in
  - 
+
 
 |
 
@@ -89,7 +93,9 @@ Evaluation of complex data plays.
    - Search first to see if a similar question has already been asked and answered.
    - You can also post your questions to the semeval-task-organizers@googlegroups.com mailing group where other task organizers and semeval organizers might be of help.
 
+
 |
+
 
 ### Important Notes:
  - Experiment with the [testing version of Codalab](https://competitions-test.codalab.org/) before uploading an official competition.
@@ -104,6 +110,7 @@ Evaluation of complex data plays.
  - Make sure your evaluation script throws errors (and exits with an error status) for all formatting issues you are able to detect in system submissions. This will ensure that ill-formatted submissions do not count against a participant’s submission limit.
    - A very common error is for participants to include an extra subdirectory in their submission. Please make sure your evaluation script detects and handles this error.
  
+
 
 
 #### CONTACT
