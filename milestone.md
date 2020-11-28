@@ -29,8 +29,9 @@ Evaluation of complex data plays.
 
  - [NFL Next Gen Stats](https://nextgenstats.nfl.com/)
 
+ - [Shield](https://api.nfl.com/docs/getting-started/index.html)
+   - Shield represents the client-facing API that will serve the needs of internal projects, external contributors, third-parties and fans alike. It is the primary way to read and write content to the NFL. It will allow users to find content, submit content for use in client applications and websites.
 
- - 
 
 
 
