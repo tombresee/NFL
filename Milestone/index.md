@@ -11,7 +11,8 @@ title: Milestone
 
 ### Project: NFL-Eval
 
-Creating an extended EDA template for NFL football stats.  This will also entail API connectivity for multiple data sources.  Endgoal is.  Evaluation of complex data plays. 
+The purpose of this project is to create an extended EDA template for NFL football stats by merging multiple key raw data sources.  Data sources will have differing access mechaisms such as HTTPS, API, and .csv forms.  The endgoal is to then create tailored representations of NFL play information to derive insights and deeper understanding of the nuances of the National Football League (NFL) plays.  These types of analyses are becoming more popular as the NFL releases `Next Gen Stats`. 
+
 
 
 |
