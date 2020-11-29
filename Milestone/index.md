@@ -79,14 +79,14 @@ The **purpose** of this project is to create an extended EDA template for Nation
 
 
 ### <font color='maroon'>Expected Visualization Tool Approaches:</font>
- -  Interactive Vizualization: 
-   -  Bokeh
-   -  Altair
-   -  Holoviews
- -  Static Visualization:
-   -  Seaborn
-   -  Matplotlib
-   -  ggplot 
+- Interactive Vizualization: 
+  - Bokeh
+  - Altair
+  - Holoviews
+- Static Visualization:
+  - Seaborn
+  - Matplotlib
+  - ggplot 
 
 
 <br>
