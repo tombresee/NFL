@@ -9,10 +9,9 @@ title: Milestone
 |
 |
 
-### Project: NFL-Eval
+### Project Name: NFL-Eval
 
-The purpose of this project is to create an extended EDA template for NFL football stats by merging multiple key raw data sources.  Data sources will have differing access mechaisms such as HTTPS, API, and .csv forms.  The endgoal is to then create tailored representations of NFL play information to derive insights and deeper understanding of the nuances of the National Football League (NFL) plays.  These types of analyses are becoming more popular as the NFL releases `Next Gen Stats`. 
-
+The **purpose** of this project is to create an extended EDA template for National Football League (NFL) football stats by merging multiple key raw data sources.  Data sources will have differing access mechaisms such as HTTPS, API, and .csv forms.  The endgoal is to then create tailored representations of NFL play information to derive insights and deeper understanding of the nuances of the NFL plays.  These types of analyses are becoming more popular as the NFL releases `Next Gen Stats` to the public, and begins to embrace analytics and machine learning. 
 
 
 |
@@ -20,24 +19,26 @@ The purpose of this project is to create an extended EDA template for NFL footba
 
 
 ### Core Raw Data Sources:
- - [NFL Kaggle 2021 Repo](https://www.kaggle.com/c/nfl-big-data-bowl-2021/data)
-   - 20 separate files (including one with 18M samples), and 363 columns
+ - [Kaggle NFL Repo](https://www.kaggle.com/c/nfl-big-data-bowl-2021/data)
+   - **Description:** Online resource of 2018/2019 football season raw data, including GPS-like positional information for every single player for every single play (offense and defense). 
+   - 20 separate .csv files (including one with 18M samples), and 363 feature columns
    - Total Set Size:  2.17 GB
-   - Accessible via kaggle API python node 
+   - Accessible via kaggle web API
 
  - [NFL Kaggle 2020 Repo](https://www.kaggle.com/c/nfl-big-data-bowl-2020/data)
    - Total Set Size:  276.47 MB
-   - Accessible via kaggle API python node 
+   - Accessible via kaggle web API 
 
  - [NFL Next Gen Stats](https://nextgenstats.nfl.com/)
+   - Multiple insightful data sub-sources accessible via web scraping of raw HTML
 
- - [NFL Play by Play Data](https://www.dolthub.com/repositories/Liquidata/nfl-play-by-play)
-   - This data sourced from original nflfastR package scrape of this: https://github.com/guga31bb/nflfastR-data
+ - [NFL Play by Play Vault](https://www.dolthub.com/repositories/Liquidata/nfl-play-by-play)
+   - This data sourced from original nflfastR package scrape of [this](https://github.com/guga31bb/nflfastR-data)
    - Original poll python [scripts](https://github.com/dolthub/dolthub-etl-jobs/tree/master/adhoc/nfl-play-by-play)
    - Assumption is via Dolpy, a python API [wrapper](https://www.dolthub.com/docs/tutorials/installation/#doltpy)
 
- - [Shield](https://api.nfl.com/docs/getting-started/index.html)
-   - Shield represents the client-facing API that will serve the needs of internal projects, external contributors, third-parties and fans alike. It is the primary way to read and write content to the NFL. It will allow users to find content, submit content for use in client applications and websites.
+ - Potentially public access to [Shield](https://api.nfl.com/docs/getting-started/index.html)
+   - Shield represents the client-facing API that will serve the needs of internal projects, external contributors, and third-party partners. It is the primary way to read and write content to the NFL. It will allow users to find content, submit content for use in client applications and websites.
   - [API Endpoints](https://api.nfl.com/docs/global/endpoints/index.html) 
     - This is a full list of the available Shield API root nodes.
 
@@ -45,7 +46,6 @@ The purpose of this project is to create an extended EDA template for NFL footba
 
 |
 |
-
 
 
 
