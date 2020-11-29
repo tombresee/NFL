@@ -14,8 +14,10 @@ title: Milestone
 The **purpose** of this project is to create an extended EDA template for National Football League (NFL) football stats by merging multiple key raw data sources.  Data sources will have differing access mechaisms such as HTTPS, API, and .csv forms.  The endgoal is to then create tailored representations of NFL play information to derive insights and deeper understanding of the nuances of the NFL plays.  These types of analyses are becoming more popular as the NFL releases `Next Gen Stats` to the public, and begins to embrace analytics and machine learning. 
 
 
+
 |
 |
+
 
 
 ### Core Raw Data Sources:
@@ -37,11 +39,14 @@ The **purpose** of this project is to create an extended EDA template for Nation
    - Original poll python [scripts](https://github.com/dolthub/dolthub-etl-jobs/tree/master/adhoc/nfl-play-by-play)
    - Assumption is via Dolpy, a python API [wrapper](https://www.dolthub.com/docs/tutorials/installation/#doltpy)
 
+ - NFLsavant.com
+   - http://nflsavant.com/pbp_data.php?year=2018
+   - 45,000+ play breakout samples 
+
  - Potentially public access to [Shield](https://api.nfl.com/docs/getting-started/index.html)
    - Shield represents the client-facing API that will serve the needs of internal projects, external contributors, and third-party partners. It is the primary way to read and write content to the NFL. It will allow users to find content, submit content for use in client applications and websites.
   - [API Endpoints](https://api.nfl.com/docs/global/endpoints/index.html) 
     - This is a full list of the available Shield API root nodes.
-
 
 
 |
@@ -52,10 +57,14 @@ The **purpose** of this project is to create an extended EDA template for Nation
 ### Expected Data Manipulation:
  - Initial Processing:
    - Expected 
-- Merging:
-   - Expected is 
+- Merging/Combining:
+   - Joining of all datasets will be contingent on a few elements:
+     - In some cases, unique gameID key will be used to merge dataframes (which can also be broken out by NFL week)
+     - In some cases, unique playID key will be used to merge dataframes
+     - In some cases, unique playerID key will be used to merge dataframes
+   - The outputs of the combinations and merges of the raw datasets will be dataframes that contain valuable meshed data forms that will allow correlation of features and examination of factors leading to victories (or football game losses).  
 - New information resulted from combining them:
-   - abc 
+   - If we do this correctly, we will have a complete view of every single play, for every single player, for every single game in an entire NFL season.  This information will also include Next Gen Stats positional data for correlation. 
 
 
 |
@@ -65,8 +74,7 @@ The **purpose** of this project is to create an extended EDA template for Nation
 
 
 ### Enhanced Visualization Expectations:
- - Initial Processing:
-
+ - Final presentation will include a fully interactive view of all NFL players by weight, height, offense/defense, college attended, BMI, football position, including deeper views of the players via html link to their official NFL profile. 
 
 
 |
