@@ -4,7 +4,7 @@ title: Milestone
 
 
 
-## <font color='green'>Milestone - University of Michigan</font>
+## <font color='firebrick'>Milestone - University of Michigan</font>
 
 |
 |
