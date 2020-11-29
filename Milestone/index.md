@@ -6,8 +6,10 @@ title: Milestone
 
 ## <font color='maroon'>Milestone - University of Michigan</font>
 
+
 <br>
 <br>
+
 
 ### <font color='maroon'>Project Name: NFL-Eval</font>
 
@@ -16,6 +18,7 @@ The **purpose** of this project is to create an extended EDA template for Nation
 
 <br>
 <br>
+
 
 
 ### <font color='maroon'>Core Raw Data Sources:</font>
@@ -66,7 +69,6 @@ The **purpose** of this project is to create an extended EDA template for Nation
 
 <br>
 <br>
-
 
 
 ### <font color='maroon'>Enhanced Visualization Expectations:</font>
@@ -136,9 +138,9 @@ The **purpose** of this project is to create an extended EDA template for Nation
 
 
 #### <font color='maroon'>CONTACT</font>
-General questions should be directed to Tom Bresee at [email]<tbresee@umich.edu>
+General questions should be directed to Tom Bresee at <tbresee@umich.edu>
 
 
 
-**Source:** [Milestone](https://tombresee.github.io/NFL/milestone)
+**Source:** [Michigan Milestone](https://tombresee.github.io/NFL/Milestone/)
 
