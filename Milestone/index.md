@@ -6,19 +6,16 @@ title: Milestone
 
 ## <font color='maroon'>Milestone - University of Michigan</font>
 
-|
-|
-|
+<br>
+<br>
 
 ### <font color='maroon'>Project Name: NFL-Eval</font>
 
 The **purpose** of this project is to create an extended EDA template for National Football League (NFL) football stats by merging multiple key raw data sources.  Data sources will have differing access mechaisms such as HTTPS, API, and .csv forms.  The endgoal is to then create tailored representations of NFL play information to derive insights and deeper understanding of the nuances of the NFL plays.  These types of analyses are becoming more popular as the NFL releases [Next Gen Stats](https://nextgenstats.nfl.com/) to the public, and begins to embrace analytics and machine learning. Football is America's most popular sports and is a billion dollar enterprise.  
 
 
-|
-|
-|
-
+<br>
+<br>
 
 
 ### <font color='maroon'>Core Raw Data Sources:</font>
@@ -50,9 +47,8 @@ The **purpose** of this project is to create an extended EDA template for Nation
     - This is a full list of the available Shield API root nodes.
 
 
-|
-|
-|
+<br>
+<br>
 
 
 ### <font color='maroon'>Expected Data Manipulation:</font>
@@ -68,9 +64,8 @@ The **purpose** of this project is to create an extended EDA template for Nation
    - If we do this correctly, we will have a complete view of every single play, for every single player, for every single game in an entire NFL season.  This information will also include Next Gen Stats positional data for correlation. 
 
 
-|
-|
-|
+<br>
+<br>
 
 
 
@@ -78,9 +73,8 @@ The **purpose** of this project is to create an extended EDA template for Nation
  - Final presentation will include a fully interactive view of all NFL players by weight, height, offense/defense, college attended, BMI, football position, including deeper views of the players via html link to their official NFL profile. This visualization will also allow a deeper view into player positional coordinates. 
 
 
-|
-|
-|
+<br>
+<br>
 
 
 
@@ -95,9 +89,8 @@ The **purpose** of this project is to create an extended EDA template for Nation
    -  ggplot 
 
 
-|
-|
-|
+<br>
+<br>
 
 
 
@@ -108,9 +101,9 @@ The **purpose** of this project is to create an extended EDA template for Nation
  
 
 
-|
-|
-|
+<br>
+<br>
+
 
 
 ### <font color='maroon'>Some resources that should help you in this process:</font>
@@ -122,9 +115,8 @@ The **purpose** of this project is to create an extended EDA template for Nation
    - You can also post your questions to the semeval-task-organizers@googlegroups.com mailing group where other task organizers and semeval organizers might be of help.
 
 
-|
-|
-|
+<br>
+<br>
 
 
 ### <font color='maroon'>Important Notes:</font>
@@ -138,9 +130,8 @@ The **purpose** of this project is to create an extended EDA template for Nation
    - [Getting Started](https://devcenter.heroku.com/articles/getting-started-with-python#define-a-procfile)
 
 
-|
-|
-|
+<br>
+<br>
 
 
 #### <font color='maroon'>CONTACT</font>
