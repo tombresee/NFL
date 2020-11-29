@@ -56,15 +56,16 @@ The **purpose** of this project is to create an extended EDA template for Nation
 
 ### <font color='maroon'>Expected Data Manipulation:</font>
  - Initial Processing:
-   - Expected 
-- Merging/Combining:
+   - Expectation is removing appropriate null values, interpolating some null values, and cleaning dataset for characters.  Part of the dataset may also be unusually, outlier, or corrupted in text form.
+ - Merging/Combining:
    - Joining of all datasets will be contingent on a few elements:
      - In some cases, unique gameID key will be used to merge dataframes (which can also be broken out by NFL week)
      - In some cases, unique playID key will be used to merge dataframes
      - In some cases, unique playerID key will be used to merge dataframes
    - The outputs of the combinations and merges of the raw datasets will be dataframes that contain valuable meshed data forms that will allow correlation of features and examination of factors leading to victories (or football game losses).  
-- New information resulted from combining them:
-   - If we do this correctly, we will have a complete view of every single play, for every single player, for every single game in an entire NFL season.  This information will also include Next Gen Stats positional data for correlation. 
+ - New information resulted from combining them:
+   - If we do this correctly, we will have a complete view of every single play, for every single player, for every single game in an entire NFL season.  This information will also include Next Gen Stats positional data for correlation.
+
 
 
 <br>
@@ -113,9 +114,7 @@ The **purpose** of this project is to create an extended EDA template for Nation
  - We have put together a [sample CodaLab competition](https://github.com/bethard/semeval-codalab) that you can use as a starting point for your task’s competition: 
  - Example Competition on CodaLab for Emotion Intensity: [CodaLab site](https://competitions.codalab.org/competitions/16380), [Code](https://github.com/felipebravom/EmoInt/tree/master/codalab)
  - Example Competition on CodaLab for Clinical TempEval: [CodaLab site](https://competitions.codalab.org/competitions/15621), [Code](https://github.com/bethard/clinical-tempeval)
- - Post your questions and issues on CodaLab [here](https://github.com/codalab/codalab-competitions/issues)
-   - Search first to see if a similar question has already been asked and answered.
-   - You can also post your questions to the semeval-task-organizers@googlegroups.com mailing group where other task organizers and semeval organizers might be of help.
+
 
 
 <br>
