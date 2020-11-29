@@ -70,7 +70,8 @@ The **purpose** of this project is to create an extended EDA template for Nation
 
 
 ### <font color='maroon'>Enhanced Visualization Expectations:</font>
- - Final presentation will include a fully interactive view of all NFL players by weight, height, offense/defense, college attended, BMI, football position, including deeper views of the players via html link to their official NFL profile. This visualization will also allow a deeper view into player positional coordinates. 
+ Final presentation will include a fully interactive view of all NFL players by weight, height, offense/defense, college attended, BMI, football position, including deeper views of the players via html link to their official NFL profile. This visualization will also allow a deeper view into player positional coordinates. 
+   - Position coordinates is a relatively new technology, and an exciting element to analyze
 
 
 <br>
