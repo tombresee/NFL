@@ -135,7 +135,7 @@ The **purpose** of this project is to create an extended EDA template for Nation
 
 
 #### <font color='maroon'>CONTACT</font>
-General questions should be directed to <tbresee@umich.edu>
+General questions should be directed to Tom Bresee at [email]<tbresee@umich.edu>
 
 
 
