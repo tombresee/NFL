@@ -11,7 +11,7 @@ title: Milestone
 
 ### Project Name: NFL-Eval
 
-The **purpose** of this project is to create an extended EDA template for National Football League (NFL) football stats by merging multiple key raw data sources.  Data sources will have differing access mechaisms such as HTTPS, API, and .csv forms.  The endgoal is to then create tailored representations of NFL play information to derive insights and deeper understanding of the nuances of the NFL plays.  These types of analyses are becoming more popular as the NFL releases `Next Gen Stats` to the public, and begins to embrace analytics and machine learning. 
+The **purpose** of this project is to create an extended EDA template for National Football League (NFL) football stats by merging multiple key raw data sources.  Data sources will have differing access mechaisms such as HTTPS, API, and .csv forms.  The endgoal is to then create tailored representations of NFL play information to derive insights and deeper understanding of the nuances of the NFL plays.  These types of analyses are becoming more popular as the NFL releases [Next Gen Stats](https://nextgenstats.nfl.com/) to the public, and begins to embrace analytics and machine learning. 
 
 
 
@@ -74,7 +74,7 @@ The **purpose** of this project is to create an extended EDA template for Nation
 
 
 ### Enhanced Visualization Expectations:
- - Final presentation will include a fully interactive view of all NFL players by weight, height, offense/defense, college attended, BMI, football position, including deeper views of the players via html link to their official NFL profile. 
+ - Final presentation will include a fully interactive view of all NFL players by weight, height, offense/defense, college attended, BMI, football position, including deeper views of the players via html link to their official NFL profile. This visualization will also allow a deeper view into player positional coordinates. 
 
 
 |
