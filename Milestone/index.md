@@ -10,7 +10,7 @@ title: Milestone
 |
 |
 
-### Project Name: NFL-Eval
+### <font color='firebrick'>Project Name: NFL-Eval</font>
 
 The **purpose** of this project is to create an extended EDA template for National Football League (NFL) football stats by merging multiple key raw data sources.  Data sources will have differing access mechaisms such as HTTPS, API, and .csv forms.  The endgoal is to then create tailored representations of NFL play information to derive insights and deeper understanding of the nuances of the NFL plays.  These types of analyses are becoming more popular as the NFL releases [Next Gen Stats](https://nextgenstats.nfl.com/) to the public, and begins to embrace analytics and machine learning. Football is America's most popular sports and is a billion dollar enterprise.  
 
@@ -21,7 +21,7 @@ The **purpose** of this project is to create an extended EDA template for Nation
 
 
 
-### Core Raw Data Sources:
+### <font color='firebrick'>Core Raw Data Sources:</font>
  - [Kaggle NFL Repo](https://www.kaggle.com/c/nfl-big-data-bowl-2021/data)
    - **Description:** Online resource of 2018/2019 football season raw data, including GPS-like positional information for every single player for every single play (offense and defense). 
    - 20 separate .csv files (including one with 18M samples), and 363 feature columns
@@ -55,7 +55,7 @@ The **purpose** of this project is to create an extended EDA template for Nation
 |
 
 
-### Expected Data Manipulation:
+### <font color='firebrick'>Expected Data Manipulation:</font>
  - Initial Processing:
    - Expected 
 - Merging/Combining:
@@ -74,7 +74,7 @@ The **purpose** of this project is to create an extended EDA template for Nation
 
 
 
-### Enhanced Visualization Expectations:
+### <font color='firebrick'>Enhanced Visualization Expectations:</font>
  - Final presentation will include a fully interactive view of all NFL players by weight, height, offense/defense, college attended, BMI, football position, including deeper views of the players via html link to their official NFL profile. This visualization will also allow a deeper view into player positional coordinates. 
 
 
@@ -84,7 +84,7 @@ The **purpose** of this project is to create an extended EDA template for Nation
 
 
 
-### Expected Visualization Tool Approaches:
+### <font color='firebrick'>Expected Visualization Tool Approaches:</font>
  - Interactive Vizualization: 
    - Bokeh
    - Altair
@@ -101,7 +101,7 @@ The **purpose** of this project is to create an extended EDA template for Nation
 
 
 
-### Core Technical Tools:
+### <font color='firebrick'>Core Technical Tools:</font>
  - Jupyter Notebook
  - Apache Spark tie-in
  - Heroku [prototype](https://immense-eyrie-75566.herokuapp.com/)
@@ -113,7 +113,7 @@ The **purpose** of this project is to create an extended EDA template for Nation
 |
 
 
-### Some resources that should help you in this process:
+### <font color='firebrick'>Some resources that should help you in this process:</font>
  - We have put together a [sample CodaLab competition](https://github.com/bethard/semeval-codalab) that you can use as a starting point for your task’s competition: 
  - Example Competition on CodaLab for Emotion Intensity: [CodaLab site](https://competitions.codalab.org/competitions/16380), [Code](https://github.com/felipebravom/EmoInt/tree/master/codalab)
  - Example Competition on CodaLab for Clinical TempEval: [CodaLab site](https://competitions.codalab.org/competitions/15621), [Code](https://github.com/bethard/clinical-tempeval)
@@ -127,7 +127,7 @@ The **purpose** of this project is to create an extended EDA template for Nation
 |
 
 
-### Important Notes:
+### <font color='firebrick'>Important Notes:</font>
  - Experiment with the [testing version of Codalab](https://competitions-test.codalab.org/) before uploading an official competition.
  - Dolt
    - https://www.dolthub.com/docs/tutorials/installation/#doltpy
@@ -143,7 +143,7 @@ The **purpose** of this project is to create an extended EDA template for Nation
 |
 
 
-#### CONTACT
+#### <font color='firebrick'>CONTACT</font>
 General questions should be directed to <tbresee@umich.edu>
 
 
