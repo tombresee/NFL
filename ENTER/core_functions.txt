@@ -10,7 +10,7 @@ def readGames():
     # print('Reading raw games.csv file into dataframe...')
     # games.csv cols are:
     #   - unique gameId, gameDate, time, homeTeamAbbr, visitorTeamAbbr, week#
-    games = pd.read_csv('/kaggle/input/nfl-big-data-bowl-2021/games.csv', index_col=0)
+    games = pd.read_csv('/kaggle/input/nfl-big-data-bowl-2021/games.csv') # if you want gameid as index, then enter: `,index_col=0)`
     return games
 
 def readPlayers():
@@ -18,16 +18,15 @@ def readPlayers():
     # players.csv cols are:
     #   - nflId, height, weight, birthDate, college, position, and displayName
     # could utilize `usecols=[some-list-of-columns]` to get exact cols 
-    players = pd.read_csv('/kaggle/input/nfl-big-data-bowl-2021/players.csv', index_col=0)
+    players = pd.read_csv('/kaggle/input/nfl-big-data-bowl-2021/players.csv')  # , index_col=0)
     return players
 
 def readPlays():
     # print('Reading raw plays.csv file into dataframe...')
     # 27 independent columns of data:
     #  - gameId, playId, playDescription, quarter, down, yard2go, etc etc
-    players = pd.read_csv('/kaggle/input/nfl-big-data-bowl-2021/plays.csv', index_col=0)
+    plays = pd.read_csv('/kaggle/input/nfl-big-data-bowl-2021/plays.csv')   # , index_col=0)
     return plays
-
 
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

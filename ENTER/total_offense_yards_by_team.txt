@@ -1,0 +1,70 @@
+
+
+
+purpose:  show how many total yards obtained on offense, and also average per game ! 
+          Note:  6 teams are missing one game !  three games missing 256-3 = 253, 
+                 and thus six teams are missing ONE game worth of information ! 
+
+
+
+
+1.  total yards 
+
+
+yards_total = df_plays.groupby('possessionTeam').agg({'offensePlayResult': 'sum', 'gameId':'nunique'}).reset_index().rename(columns={'gameId': 'number of matches', 'offensePlayResult': 'yardsGained'})
+
+yards_total['averageYards']= np.round(yards_total['yardsGained']/yards_total['number of matches'])
+
+yards_total.head()
+
+
+or 
+
+
+def total_yards_by_team():
+    plays.groupby('possessionTeam').agg({'offensePlayResult': 'sum', 'gameId':'nunique'}).reset_index().rename(columns={'gameId': 'number of games played', 'offensePlayResult': 'yardsGained'})
+
+
+
+
+2.  data 
+
+possessionTeam	totYardsGained	number of games played
+0	ARI	2531	16
+1	ATL	4618	16
+2	BAL	3588	16
+3	BUF	2809	16
+4	CAR	3796	16
+5	CHI	3516	16
+6	CIN	3306	16
+7	CLE	4057	16
+8	DAL	3565	16
+9	DEN	3470	15 * 
+10	DET	3668	16
+11	GB	4221	16
+12	HOU	3829	16
+13	IND	4483	16
+14	JAX	3132	16
+15	KC	4740	15 * 
+16	LA	4543	16
+17	LAC	3671	15 * 
+18	MIA	2941	16
+19	MIN	3822	15 * 
+20	NE	4326	16
+21	NO	4039	16
+22	NYG	4058	16
+23	NYJ	3153	16
+24	OAK	3776	16
+25	PHI	4377	16
+26	PIT	5043	16
+27	SEA	2838	15 * 
+28	SF	3668	15 *
+29	TB	5177	16
+30	TEN	2981	16
+31	WAS	3067	16
+
+
+
+3.  average yards gained per game ! 
+
+into cyan orange blue  ! 
