@@ -46,7 +46,7 @@ The **purpose** of this project is to create an extended EDA template for Nation
 
  - Potentially public access to [Shield](https://api.nfl.com/docs/getting-started/index.html)
    - Shield represents the client-facing API that will serve the needs of internal projects, external contributors, and third-party partners. It is the primary way to read and write content to the NFL. It will allow users to find content, submit content for use in client applications and websites.
-  - [API Endpoints](https://api.nfl.com/docs/global/endpoints/index.html) 
+   - [API Endpoints](https://api.nfl.com/docs/global/endpoints/index.html) 
     - This is a full list of the available Shield API root nodes.
 
 
@@ -70,6 +70,7 @@ The **purpose** of this project is to create an extended EDA template for Nation
 
 <br>
 <br>
+
 
 
 ### <font color='#00274C'>Enhanced Visualization Expectations:</font>
