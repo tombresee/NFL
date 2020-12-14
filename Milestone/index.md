@@ -75,6 +75,7 @@ The **purpose** of this project is to create an extended EDA template for Nation
 
 
 
+
 ### <font color='#00274C'>Enhanced Visualization Expectations:</font>
  Final presentation will include a fully interactive view of all NFL players by weight, height, offense/defense, college attended, BMI, football position, including deeper views of the players via html link to their official NFL profile. This visualization will also allow a deeper view into player positional coordinates. 
    - Position coordinates is a relatively new technology, and an exciting element to analyze
@@ -82,6 +83,7 @@ The **purpose** of this project is to create an extended EDA template for Nation
 
 <br>
 <br>
+
 
 
 
@@ -115,6 +117,18 @@ The **purpose** of this project is to create an extended EDA template for Nation
 
 <br>
 <br>
+
+
+
+### <font color='#00274C'>Reproducibility:</font>
+- In order for the core project to be as reproducible as possible, I have a set of github pages as well as the core project within Kaggle (so that the notebook can be downloaded and executed locally, with minimal effort). 
+- Note:  A portion of the project will also be hosted on Databricks, with a public URL, which is convenient given that Databricks offers the ability to efficiently *import* any public URL to the user's account, allowing execution of the notebook immediately on the local cluster object. 
+
+
+
+<br>
+<br>
+
 
 
 
