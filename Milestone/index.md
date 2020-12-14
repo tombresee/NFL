@@ -5,7 +5,7 @@ title: Milestone
 
 
 ## <font color='#00274C'>Milestone - University of Michigan</font>
-
+#### Tom Bresee
 
 <br>
 <br>
