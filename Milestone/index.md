@@ -4,14 +4,14 @@ title: Milestone
 
 
 
-## <font color='maroon'>Milestone - University of Michigan</font>
+## <font color='#00274C'>Milestone - University of Michigan</font>
 
 
 <br>
 <br>
 
 
-### <font color='maroon'>Project Name: NFL-Eval</font>
+### <font color='#00274C'>Project Name: NFL-Eval</font>
 
 The **purpose** of this project is to create an extended EDA template for National Football League (NFL) football stats by merging multiple key raw data sources.  Data sources will have differing access mechaisms such as HTTPS, API, and .csv forms.  The endgoal is to then create tailored representations of NFL play information to derive insights and deeper understanding of the nuances of the NFL plays.  These types of analyses are becoming more popular as the NFL releases [Next Gen Stats](https://nextgenstats.nfl.com/) to the public, and begins to embrace analytics and machine learning. Football is America's most popular sports and is a billion dollar enterprise.  
 
@@ -21,7 +21,7 @@ The **purpose** of this project is to create an extended EDA template for Nation
 
 
 
-### <font color='maroon'>Core Raw Data Sources:</font>
+### <font color='#00274C'>Core Raw Data Sources:</font>
  - [Kaggle NFL Repo](https://www.kaggle.com/c/nfl-big-data-bowl-2021/data)
    - **Description:** Online resource of 2018/2019 football season raw data, including GPS-like positional information for every single player for every single play (offense and defense). 
    - 20 separate .csv files (including one with 18M samples), and 363 feature columns
@@ -54,7 +54,7 @@ The **purpose** of this project is to create an extended EDA template for Nation
 <br>
 
 
-### <font color='maroon'>Expected Data Manipulation:</font>
+### <font color='#00274C'>Expected Data Manipulation:</font>
  - Initial Processing:
    - Expectation is removing appropriate null values, interpolating some null values, and cleaning dataset for characters.  Part of the dataset may also be unusually, outlier, or corrupted in text form.
  - Merging/Combining:
@@ -72,7 +72,7 @@ The **purpose** of this project is to create an extended EDA template for Nation
 <br>
 
 
-### <font color='maroon'>Enhanced Visualization Expectations:</font>
+### <font color='#00274C'>Enhanced Visualization Expectations:</font>
  Final presentation will include a fully interactive view of all NFL players by weight, height, offense/defense, college attended, BMI, football position, including deeper views of the players via html link to their official NFL profile. This visualization will also allow a deeper view into player positional coordinates. 
    - Position coordinates is a relatively new technology, and an exciting element to analyze
 
@@ -82,7 +82,7 @@ The **purpose** of this project is to create an extended EDA template for Nation
 
 
 
-### <font color='maroon'>Expected Visualization Tool Approaches:</font>
+### <font color='#00274C'>Expected Visualization Tool Approaches:</font>
 - Interactive Vizualization: 
    - Bokeh
    - Altair
@@ -98,7 +98,7 @@ The **purpose** of this project is to create an extended EDA template for Nation
 
 
 
-### <font color='maroon'>Core Technical Tools:</font>
+### <font color='#00274C'>Core Technical Tools:</font>
  - Jupyter Notebook
  - Apache Spark tie-in
  - Heroku [prototype](https://immense-eyrie-75566.herokuapp.com/)
@@ -109,7 +109,7 @@ The **purpose** of this project is to create an extended EDA template for Nation
 <br>
 
 
-#### <font color='maroon'>CONTACT</font>
+#### <font color='#00274C'>CONTACT</font>
 General questions should be directed to Tom Bresee at <tbresee@umich.edu>
 
 
