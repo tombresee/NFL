@@ -107,7 +107,7 @@ The **purpose** of this project is to create an extended EDA template for Nation
  - Jupyter Notebooks
  - Apache Spark tie-in
  - Databricks Apache Spark platform (which I will have a link to the public notebook for spark python api commands)
- - Heroku [prototype](https://immense-eyrie-75566.herokuapp.com/)
+ - Heroku [prototype](https://immense-eyrie-75566.herokuapp.com/).  This will store an additional bokeh server for truly interactive visualization of various information. 
  - Google Cloud Platform (GCP) as host to Heroku front-end
  - NetworkX / Gephi
  
