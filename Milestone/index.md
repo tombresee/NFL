@@ -18,6 +18,7 @@ The **purpose** of this project is to create an extended EDA template for Nation
 - Master Link to Final Project Output: [here](https://www.kaggle.com/tombresee/nfl-eval).  This is currently active and is appended to every couple days... 
 
 
+
 <br>
 <br>
 
@@ -77,7 +78,7 @@ The **purpose** of this project is to create an extended EDA template for Nation
 ### <font color='#00274C'>Enhanced Visualization Expectations:</font>
  Final presentation will include a fully interactive view of all NFL players by weight, height, offense/defense, college attended, BMI, football position, including deeper views of the players via html link to their official NFL profile. This visualization will also allow a deeper view into player positional coordinates. 
    - Position coordinates is a relatively new technology, and an exciting element to analyze
-
+   - Examples:  [Viz1](https://raw.githubusercontent.com/tombresee/NFL-Big-Data-Bowl-2021/main/ENTER/images/tampa_bay_passes_all_season.svg), [Viz2](https://raw.githubusercontent.com/tombresee/NFL-Big-Data-Bowl-2021/main/ENTER/images/avg_passing_yds_per_game_by_team.svg), [Viz3](https://raw.githubusercontent.com/tombresee/NFL-Big-Data-Bowl-2021/main/ENTER/images/player_weight_distribution.svg)
 
 <br>
 <br>
@@ -87,12 +88,14 @@ The **purpose** of this project is to create an extended EDA template for Nation
 ### <font color='#00274C'>Expected Visualization Tool Approaches:</font>
 - Interactive Vizualization: 
    - Bokeh
-   - Altair
    - Holoviews
+   - Altair 
 - Static Visualization:
    - Seaborn
    - Matplotlib
+   - Altair 
    - ggplot 
+
 
 
 <br>
@@ -105,21 +108,13 @@ The **purpose** of this project is to create an extended EDA template for Nation
  - Apache Spark tie-in
  - Databricks Apache Spark platform (which I will have a link to the public notebook for spark python api commands)
  - Heroku [prototype](https://immense-eyrie-75566.herokuapp.com/)
- 
-
-<br>
-<br>
-
-
-### <font color='#00274C'>Core Technical Tools:</font>
- - Jupyter Notebook
- - Apache Spark tie-in
- - Heroku [prototype](https://immense-eyrie-75566.herokuapp.com/)
+ - Google Cloud Platform (GCP) as host to Heroku front-end
  
 
 
 <br>
 <br>
+
 
 
 #### <font color='#00274C'>CONTACT</font>
