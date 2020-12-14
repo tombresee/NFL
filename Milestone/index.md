@@ -109,33 +109,6 @@ The **purpose** of this project is to create an extended EDA template for Nation
 <br>
 
 
-
-### <font color='maroon'>Some resources that should help you in this process:</font>
- - We have put together a [sample CodaLab competition](https://github.com/bethard/semeval-codalab) that you can use as a starting point for your task’s competition: 
- - Example Competition on CodaLab for Emotion Intensity: [CodaLab site](https://competitions.codalab.org/competitions/16380), [Code](https://github.com/felipebravom/EmoInt/tree/master/codalab)
- - Example Competition on CodaLab for Clinical TempEval: [CodaLab site](https://competitions.codalab.org/competitions/15621), [Code](https://github.com/bethard/clinical-tempeval)
-
-
-
-<br>
-<br>
-
-
-### <font color='maroon'>Important Notes:</font>
- - Experiment with the [testing version of Codalab](https://competitions-test.codalab.org/) before uploading an official competition.
- - Dolt
-   - https://www.dolthub.com/docs/tutorials/installation/#doltpy
-   - https://github.com/dolthub/dolthub-etl-jobs/tree/master/adhoc/nfl-play-by-play 
-   - https://github.com/dolthub/dolthub-etl-jobs/blob/master/adhoc/nfl-play-by-play/import-play-by-play.py
- - Heroku
-   - https://devcenter.heroku.com/articles/getting-started-with-python#set-up
-   - [Getting Started](https://devcenter.heroku.com/articles/getting-started-with-python#define-a-procfile)
-
-
-<br>
-<br>
-
-
 #### <font color='maroon'>CONTACT</font>
 General questions should be directed to Tom Bresee at <tbresee@umich.edu>
 
