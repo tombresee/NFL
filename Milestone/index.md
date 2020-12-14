@@ -6,6 +6,7 @@ title: Milestone
 ## <font color='#00274C'>Milestone - University of Michigan</font>
 #### <font color='#00274C'> Author:  Tom Bresee </font>
 
+
 <br>
 <br>
 
@@ -14,7 +15,8 @@ title: Milestone
 
 The **purpose** of this project is to create an extended EDA template for National Football League (NFL) football stats by merging multiple key raw data sources.  Data sources will have differing access mechaisms such as HTTPS, API, and .csv forms.  The endgoal is to then create tailored representations of NFL play information to derive insights and deeper understanding of the nuances of the NFL plays.  These types of analyses are becoming more popular as the NFL releases [Next Gen Stats](https://nextgenstats.nfl.com/) to the public, and begins to embrace analytics and machine learning. Football is America's most popular sports and is a billion dollar enterprise.  
 
-- Master Link to Final Project Output [here](https://www.kaggle.com/tombresee/nfl-eval)
+- Master Link to Final Project Output: [here](https://www.kaggle.com/tombresee/nfl-eval).  This is currently active and is appended to every couple days... 
+
 
 <br>
 <br>
