@@ -5,6 +5,7 @@ title: Milestone
 
 ## <font color='#00274C'>Milestone - University of Michigan</font>
 #### <font color='#00274C'> Author:  Tom Bresee </font>
+#### Category:  Sports Analytics 
 
 
 <br>
@@ -17,6 +18,16 @@ The **purpose** of this project is to create an extended EDA template for Nation
 
 - Master Link (hosted on Kaggle for visibility and feedback) to Final Project Output: [HERE](https://www.kaggle.com/tombresee/nfl-eval).  This is currently active and is appended to every couple days... 
 
+
+
+<br>
+<br>
+
+
+
+### <font color='#00274C'>Goals</font>
+
+I will try to illustrate the relationship between various features and factors thoughout my notebook, i.e. weight/height and correlation to speed and play outcome.  Also, since my raw data set comes from Kaggle, will try to create a competitive notebook that can be used for potentially winning a competition.  One element I am especially interested in is consolidating all of the positional data (for both offense and defense) and looking for insights in the play outcomes based on offensive and defensive schemes. The **distinguishing** factor here is that for the first time the NFL is really releasing massive amounts of player position data, I'm hoping to leverage that for deep insights... 
 
 
 <br>
