@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>NFL Player County by Position</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.2.3.min.js" integrity="sha384-T2yuo9Oe71Cz/I4X9Ac5+gpEa5a8PpJCDlqKYO0CfAuEszu1JrXLl8YugMqYe3sM" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="c8f990a7-b3bd-4ca7-a8cb-1fdda58a8d91" data-root-id="4704"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="5010">
+          {"ed542edb-44e2-411c-b997-16d9bdfb56df":{"roots":{"references":[{"attributes":{"above":[{"id":"4728"},{"id":"4729"}],"below":[{"id":"4713"}],"center":[{"id":"4716"},{"id":"4719"}],"left":[{"id":"4717"}],"renderers":[{"id":"4726"}],"title":{"id":"4730"},"toolbar":{"id":"4721"},"toolbar_location":null,"x_range":{"id":"4705"},"x_scale":{"id":"4709"},"y_range":{"id":"4707"},"y_scale":{"id":"4711"}},"id":"4704","subtype":"Figure","type":"Plot"},{"attributes":{"axis_label":"# of NFL players that play the position","formatter":{"id":"4885"},"minor_tick_line_color":null,"ticker":{"id":"4714"}},"id":"4713","type":"LinearAxis"},{"attributes":{},"id":"4887","type":"CategoricalTickFormatter"},{"attributes":{"axis":{"id":"4713"},"ticker":null},"id":"4716","type":"Grid"},{"attributes":{"callback":null},"id":"4720","type":"HoverTool"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"4720"},{"id":"4731"}]},"id":"4721","type":"Toolbar"},{"attributes":{"factors":["HB","K","NT","S","LS","P","FB","DT","MLB","DB","DE","ILB","LB","SS","FS","QB","OLB","TE","RB","CB","WR"]},"id":"4707","type":"FactorRange"},{"attributes":{},"id":"4709","type":"LinearScale"},{"attributes":{},"id":"4885","type":"BasicTickFormatter"},{"attributes":{"callback":null,"tooltips":[["POSITION ","@position"],["Num of Players ","@counts"]]},"id":"4731","type":"HoverTool"},{"attributes":{"text":"Interactive Chart: NFL Player Count by Position ","text_font_size":{"value":"11pt"}},"id":"4729","type":"Title"},{"attributes":{},"id":"4711","type":"CategoricalScale"},{"attributes":{},"id":"4888","type":"UnionRenderers"},{"attributes":{},"id":"4705","type":"DataRange1d"},{"attributes":{"fill_alpha":{"value":0.5},"fill_color":{"value":"#8a2be2"},"height":{"value":0.6},"line_alpha":{"value":0.7},"line_color":{"value":"#8a2be2"},"right":{"field":"counts"},"y":{"field":"position"}},"id":"4724","type":"HBar"},{"attributes":{},"id":"4889","type":"Selection"},{"attributes":{"text":"Wide Receivers and Cornerbacks are critical positions for an NFL team","text_font_style":"italic"},"id":"4728","type":"Title"},{"attributes":{"text":"","text_font_size":{"value":"11pt"}},"id":"4730","type":"Title"},{"attributes":{"formatter":{"id":"4887"},"major_tick_line_color":null,"minor_tick_line_color":null,"ticker":{"id":"4718"}},"id":"4717","type":"CategoricalAxis"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#8a2be2"},"height":{"value":0.6},"line_alpha":{"value":0.1},"line_color":{"value":"#8a2be2"},"right":{"field":"counts"},"y":{"field":"position"}},"id":"4725","type":"HBar"},{"attributes":{},"id":"4718","type":"CategoricalTicker"},{"attributes":{"source":{"id":"4703"}},"id":"4727","type":"CDSView"},{"attributes":{},"id":"4714","type":"BasicTicker"},{"attributes":{"data_source":{"id":"4703"},"glyph":{"id":"4724"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"4725"},"selection_glyph":null,"view":{"id":"4727"}},"id":"4726","type":"GlyphRenderer"},{"attributes":{"axis":{"id":"4717"},"dimension":1,"grid_line_color":null,"ticker":null},"id":"4719","type":"Grid"},{"attributes":{"data":{"counts":[5,5,5,11,12,13,19,28,29,33,49,56,58,58,65,71,100,128,135,195,228],"index":[6,8,12,17,10,14,4,3,11,1,2,7,9,18,5,15,13,19,16,0,20],"position":["HB","K","NT","S","LS","P","FB","DT","MLB","DB","DE","ILB","LB","SS","FS","QB","OLB","TE","RB","CB","WR"]},"selected":{"id":"4889"},"selection_policy":{"id":"4888"}},"id":"4703","type":"ColumnDataSource"}],"root_ids":["4704"]},"title":"Bokeh Application","version":"2.2.3"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('5010').textContent;
+                  var render_items = [{"docid":"ed542edb-44e2-411c-b997-16d9bdfb56df","root_ids":["4704"],"roots":{"4704":"c8f990a7-b3bd-4ca7-a8cb-1fdda58a8d91"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
