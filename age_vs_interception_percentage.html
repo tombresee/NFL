@@ -1,0 +1,91 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>age_vs_interception_percentage</title>
+      
+      
+        
+          
+        <link rel="stylesheet" href="/static/extensions/panel/css/alerts.css" type="text/css" />
+        <link rel="stylesheet" href="/static/extensions/panel/css/card.css" type="text/css" />
+        <link rel="stylesheet" href="/static/extensions/panel/css/dataframe.css" type="text/css" />
+        <link rel="stylesheet" href="/static/extensions/panel/css/json.css" type="text/css" />
+        <link rel="stylesheet" href="/static/extensions/panel/css/markdown.css" type="text/css" />
+        <link rel="stylesheet" href="/static/extensions/panel/css/widgets.css" type="text/css" />
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.2.3.min.js" integrity="sha384-T2yuo9Oe71Cz/I4X9Ac5+gpEa5a8PpJCDlqKYO0CfAuEszu1JrXLl8YugMqYe3sM" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="34fe324a-0755-42fa-ab64-39e86e646cae" data-root-id="67296"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="67459">
+          {"a3d3e989-88a9-4836-8bef-41f981d15f81":{"roots":{"references":[{"attributes":{},"id":"67332","type":"Selection"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"red"},"line_alpha":{"value":0.1},"size":{"units":"screen","value":10},"x":{"field":"Age"},"y":{"field":"INT_Pct"}},"id":"67335","type":"Scatter"},{"attributes":{"source":{"id":"67331"}},"id":"67338","type":"CDSView"},{"attributes":{"fill_color":{"value":"red"},"size":{"units":"screen","value":10},"x":{"field":"Age"},"y":{"field":"INT_Pct"}},"id":"67334","type":"Scatter"},{"attributes":{"data_source":{"id":"67331"},"glyph":{"id":"67334"},"hover_glyph":null,"muted_glyph":{"id":"67336"},"nonselection_glyph":{"id":"67335"},"selection_glyph":null,"view":{"id":"67338"}},"id":"67337","type":"GlyphRenderer"},{"attributes":{},"id":"67306","type":"LinearScale"},{"attributes":{"end":42.8,"reset_end":42.8,"reset_start":21.2,"start":21.2,"tags":[[["Age","Age",null]]]},"id":"67298","type":"Range1d"},{"attributes":{"fill_alpha":{"value":0.2},"fill_color":{"value":"red"},"line_alpha":{"value":0.2},"size":{"units":"screen","value":10},"x":{"field":"Age"},"y":{"field":"INT_Pct"}},"id":"67336","type":"Scatter"},{"attributes":{"text":"NFL QBs:  Age vs Interception Percentage","text_color":{"value":"black"},"text_font_size":{"value":"12pt"}},"id":"67302","type":"Title"},{"attributes":{},"id":"67340","type":"BasicTickFormatter"},{"attributes":{"end":3.134,"reset_end":3.134,"reset_start":0.06599999999999995,"start":0.06599999999999995,"tags":[[["INT_Pct","INT_Pct",null]]]},"id":"67299","type":"Range1d"},{"attributes":{},"id":"67351","type":"UnionRenderers"},{"attributes":{"callback":null,"renderers":[{"id":"67337"}],"tooltips":[["Name","@Player"],["Age","@Age"],["Interception Percentage","@INT_Pct"],["Team","@Team"],["Completions","@Cmp"],["Pass Attempts","@Att"],["Completion Percentage","@Cmp_Pct"],["Offensive Yards","@Yds"],["Touchdowns","@TDs"],["Interceptions Thrown","@INTs"],["Sacked","@Sacked"],["QB Rating","@Rating"]]},"id":"67300","type":"HoverTool"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","top_units":"screen"},"id":"67323","type":"BoxAnnotation"},{"attributes":{"below":[{"id":"67310"}],"center":[{"id":"67313"},{"id":"67317"}],"left":[{"id":"67314"}],"margin":[5,5,5,5],"min_border_bottom":10,"min_border_left":10,"min_border_right":10,"min_border_top":10,"plot_height":1000,"plot_width":900,"renderers":[{"id":"67337"}],"sizing_mode":"fixed","title":{"id":"67302"},"toolbar":{"id":"67324"},"x_range":{"id":"67298"},"x_scale":{"id":"67306"},"y_range":{"id":"67299"},"y_scale":{"id":"67308"}},"id":"67301","subtype":"Figure","type":"Plot"},{"attributes":{"margin":[5,5,5,5],"name":"HSpacer94890","sizing_mode":"stretch_width"},"id":"67361","type":"Spacer"},{"attributes":{"data":{"Age":[36,29,33,30,35,30,23,37,41,24,30,27,25,37,23,39,23,29,24,30],"Att":[675,639,608,606,597,586,580,576,570,561,555,553,526,508,505,489,486,471,434,427],"Cmp":[452,430,422,425,372,365,383,380,375,364,367,381,356,347,345,364,310,320,289,280],"Cmp_Pct":{"__ndarray__":"AAAAAADAUEAzMzMzM9NQQJqZmZmZWVFAZmZmZmaGUUBmZmZmZiZPQGZmZmZmJk9AAAAAAACAUEAAAAAAAIBQQDMzMzMzc1BAmpmZmZk5UEBmZmZmZoZQQJqZmZmZOVFAzczMzMzsUEAzMzMzMxNRQDMzMzMzE1FAmpmZmZmZUkBmZmZmZuZPQJqZmZmZ+VBAZmZmZmamUEBmZmZmZmZQQA==","dtype":"float64","order":"little","shape":[20]},"INT_Pct":{"__ndarray__":"MzMzMzMzA0BmZmZmZmYCQDMzMzMzM/M/MzMzMzMz+z8zMzMzMzPTP83MzMzMzARAzczMzMzMAEBmZmZmZmb+P2ZmZmZmZv4/zczMzMzMAEAAAAAAAAAAQM3MzMzMzPw/AAAAAAAA+D8zMzMzMzMDQM3MzMzMzPw/AAAAAAAA8D8zMzMzMzMHQGZmZmZmZgZAZmZmZmZmBkCamZmZmZn5Pw==","dtype":"float64","order":"little","shape":[20]},"INTs":[16,15,7,10,2,15,12,11,11,12,11,10,8,12,9,5,14,13,12,7],"Player":["Ben Roethlisberger","Andrew Luck","Matt Ryan","Kirk Cousins","Aaron Rodgers","Case Keenum","Patrick Mahomes","Eli Manning","Tom Brady","Jared Goff","Matthew Stafford","Derek Carr","Dak Prescott","Philip Rivers","Deshaun Watson","Drew Brees","Baker Mayfield","Cam Newton","Mitchell Trubisky","Russell Wilson"],"Rating":{"__ndarray__":"AAAAAAAgWEDNzMzMzKxYQGZmZmZmBltAzczMzMzsWEBmZmZmZmZYQM3MzMzMTFRAMzMzMzNzXECamZmZmRlXQM3MzMzMbFhAZmZmZmZGWUCamZmZmXlWQJqZmZmZeVdAmpmZmZk5WEAAAAAAAGBaQGZmZmZmxllAzczMzMzsXEDNzMzMzGxXQM3MzMzMjFdAmpmZmZnZV0CamZmZmblbQA==","dtype":"float64","order":"little","shape":[20]},"Sacked":[24,18,42,40,49,34,26,47,21,33,40,51,56,32,62,17,25,29,24,51],"TDs":[34,39,35,30,25,18,50,21,29,32,21,19,22,32,26,32,27,24,24,35],"Team":["PIT","IND","ATL","MIN","GNB","DEN","KAN","NYG","NWE","LAR","DET","OAK","DAL","LAC","HOU","NOR","CLE","CAR","CHI","SEA"],"Yds":[5129,4593,4924,4298,4442,3890,5097,4299,4355,4688,3777,4049,3885,4308,4165,3992,3725,3395,3223,3448]},"selected":{"id":"67332"},"selection_policy":{"id":"67351"}},"id":"67331","type":"ColumnDataSource"},{"attributes":{},"id":"67342","type":"BasicTickFormatter"},{"attributes":{},"id":"67319","type":"PanTool"},{"attributes":{"axis":{"id":"67314"},"dimension":1,"ticker":{"id":"67315"}},"id":"67317","type":"Grid"},{"attributes":{"margin":[5,5,5,5],"name":"HSpacer94889","sizing_mode":"stretch_width"},"id":"67297","type":"Spacer"},{"attributes":{"axis_label":"Age","bounds":"auto","formatter":{"id":"67340"},"major_label_orientation":"horizontal","ticker":{"id":"67311"}},"id":"67310","type":"LinearAxis"},{"attributes":{"children":[{"id":"67297"},{"id":"67301"},{"id":"67361"}],"margin":[0,0,0,0],"name":"Row94885","tags":["embedded"]},"id":"67296","type":"Row"},{"attributes":{},"id":"67311","type":"BasicTicker"},{"attributes":{"axis":{"id":"67310"},"ticker":{"id":"67311"}},"id":"67313","type":"Grid"},{"attributes":{},"id":"67308","type":"LinearScale"},{"attributes":{"axis_label":"INT_Pct","bounds":"auto","formatter":{"id":"67342"},"major_label_orientation":"horizontal","ticker":{"id":"67315"}},"id":"67314","type":"LinearAxis"},{"attributes":{},"id":"67315","type":"BasicTicker"},{"attributes":{},"id":"67320","type":"WheelZoomTool"},{"attributes":{},"id":"67322","type":"ResetTool"},{"attributes":{},"id":"67318","type":"SaveTool"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"67300"},{"id":"67318"},{"id":"67319"},{"id":"67320"},{"id":"67321"},{"id":"67322"}]},"id":"67324","type":"Toolbar"},{"attributes":{"overlay":{"id":"67323"}},"id":"67321","type":"BoxZoomTool"}],"root_ids":["67296"]},"title":"Bokeh Application","version":"2.2.3"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('67459').textContent;
+                  var render_items = [{"docid":"a3d3e989-88a9-4836-8bef-41f981d15f81","root_ids":["67296"],"roots":{"67296":"34fe324a-0755-42fa-ab64-39e86e646cae"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
